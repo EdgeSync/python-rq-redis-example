@@ -8,11 +8,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-python 2.7
-screen
-redis-server
-pip
-python modules rq and redis
+python 2.7  
+screen  
+redis-server  
+pip  
+python modules rq and redis  
 
 
 #### Installing necessary pre-reqs
