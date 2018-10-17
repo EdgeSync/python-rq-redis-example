@@ -39,19 +39,19 @@ pip install redis
 ```
 
 
-### Start the redis server
+#### Start the redis server
 
 ```
 in a terminal, type:
 redis-server
 ```
 
-### Run main_program.py
+#### Run main_program.py
 ```
 python main_program.py
 ```
 
-### What happens next
+#### What happens next
 The screen starts, we can access it via a terminal like so:
 ```
 screen -r sample_screen
