@@ -46,11 +46,4 @@ def main():
 if __name__ == '__main__':
     main()
 
-# Redis contains 3 seperate components
-# the main component is the worker - this is seperate from the redis web server and is used to run the job
-# the next component is the message queue - the worker constantly checks the message queue for new jobs.
-# when a job appears in a message queue the worker assigns itself to the job, and run the job - then post results back to the queue
-# the last component is the task queue client - this component runs as part of the application in redis-server.
-# This component posts new jobs to the message queue
-
 
